@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\SwitchesPuzzle\LeverManager.cs" />
     <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Inventory\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Boar\BoarBehaviour.cs" />
+    <Compile Include="Assets\Cyrus&apos; Scripts\Scripts\SceneChanger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
