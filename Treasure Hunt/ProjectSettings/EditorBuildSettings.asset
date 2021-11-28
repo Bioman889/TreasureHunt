@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IslandScene.unity
+    guid: 794ae05f430eeb34aa0a9e00844d66f0
+  - enabled: 1
+    path: Assets/Scenes/CyrusLevel.unity
+    guid: 2862eb4a3de7e5b4cbaf0f50e6646ec2
   m_configObjects: {}
