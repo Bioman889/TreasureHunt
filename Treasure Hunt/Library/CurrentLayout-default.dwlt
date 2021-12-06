@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 703, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 93
+  controlID: 91
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 94
+  controlID: 92
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 95
+  controlID: 93
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 201
     height: 609
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 970
     height: 609
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 431}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 19
+  controlID: 24
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -448,26 +448,26 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1465}
-      m_SelectedIDs: 8061ffff
-      m_LastClickedID: -40576
-      m_ExpandedIDs: bcb5ffffe4fafffffcfaffff54fbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 5e33fbff
+      m_LastClickedID: -314530
+      m_ExpandedIDs: 143ffbff163ffbff2446fbff0a60fbff0c60fbff9c62fbfffe66fbffcc67fbff2432fcff8636fcff6c0efdff6029fdff5a32fdff603efdffe843fdff4853fdff8e02feff5809feff228ffeff7eb8feff4ac1fefff071ffffde74ffff447fffff0482ffff6e86ffff7e88ffff8a88ffff8c88ffff949bffff909dffff3aa2ffff58a9ffffa2adffff7cb4ffff66c3ffff68c3ffffe2d9ffffdedbffffdaecfffff2ecffffc2edffff520302003c270200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Cube (1)
+        m_OriginalName: Cube (1)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 131660
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -511,9 +511,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 40.00821, y: 17.55327, z: 118.00471}
+    m_Target: {x: -37.72397, y: 59.72107, z: 35.0892}
     speed: 2
-    m_Value: {x: 40.00821, y: 17.55327, z: 118.00471}
+    m_Value: {x: -37.72397, y: 59.72107, z: 35.0892}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -560,13 +560,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.120872684, y: -0.8800103, z: 0.3453886, w: -0.30465797}
+    m_Target: {x: -0.01937856, y: -0.98159355, z: 0.1641254, w: -0.102056384}
     speed: 2
-    m_Value: {x: -0.1213216, y: -0.8790522, z: 0.34501058, w: -0.30580366}
+    m_Value: {x: -0.01936642, y: -0.98097867, z: 0.1640226, w: -0.10199246}
   m_Size:
-    m_Target: 8.556319
+    m_Target: 22.189724
     speed: 2
-    m_Value: 8.187865
+    m_Value: 23.235313
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -715,22 +715,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Owner\Documents\GitHub\TreasureHunt\Treasure Hunt
+  m_LastProjectPath: D:\Git Repo\TreasureHunt\Treasure Hunt
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 10410000
-    m_LastClickedID: 16656
-    m_ExpandedIDs: 00000000fa400000fc400000fe40000000410000024100000441000000ca9a3b
+    m_SelectedIDs: 1c4f0000
+    m_LastClickedID: 20252
+    m_ExpandedIDs: 000000000a4f00000c4f00000e4f0000104f0000124f0000144f0000224f0000244f0000284f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -758,7 +758,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa400000fc400000fe400000004100000241000004410000
+    m_ExpandedIDs: 000000000a4f00000c4f00000e4f0000104f0000124f0000144f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
