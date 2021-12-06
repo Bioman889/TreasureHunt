@@ -27,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6114362936345332578}
-  m_LocalRotation: {x: 0.4189624, y: 0.55640614, z: 0.58944523, w: -0.40919065}
+  m_LocalRotation: {x: 0.4189609, y: 0.5564073, z: 0.5894462, w: -0.40918937}
   m_LocalPosition: {x: -112.4, y: 23, z: -75.4}
-  m_LocalScale: {x: 1.6326709, y: 5.2550325, z: 5.4187}
+  m_LocalScale: {x: 1.6326709, y: 7.284526, z: 9.17115}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -108,4 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f6c590b78fd0c949bc1d2ecbce99e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameOfScene: ThomasLevel
+  nameOfScene: IslandScene
