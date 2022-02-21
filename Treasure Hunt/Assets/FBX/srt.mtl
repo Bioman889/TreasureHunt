@@ -1,0 +1,294 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 1.00 0.92
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.05 0.05 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.15 0.30 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl snakeTube1ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube2ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube3ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube4ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube5ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube6ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube7ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube8ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube9ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube10ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube11ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube12ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube13ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube14ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube15ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube16ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube17ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube18ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube19ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube20ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube21ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube22ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube23ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube24ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube25ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube26ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube27ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube28ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube29ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl snakeTube30ShaderSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.73 0.73 0.73
+map_Kd -o_0_0.2_-s_0.5_2.575196_-mm_0_0.924096_snakeskin2.iff
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
