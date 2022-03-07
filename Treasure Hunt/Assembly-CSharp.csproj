@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Boar\Boar.cs" />
      <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Items\ItemPickup.cs" />
      <Compile Include="Assets\Scripts\KeyRemember\KeyScriptObj.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\KillPlayer.cs" />
      <Compile Include="Assets\Scripts\SwitchesPuzzle\LeverManager.cs" />
      <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Inventory\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\Boar\BoarBehaviour.cs" />
@@ -642,11 +643,17 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -656,6 +663,12 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
