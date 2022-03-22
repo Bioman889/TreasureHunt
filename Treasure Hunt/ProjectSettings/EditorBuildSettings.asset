@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThomasLevel.unity
     guid: 85f9fcb96494a6247af59f84bb78fbc3
+  - enabled: 1
+    path: Assets/Scenes/snake test/snt.unity
+    guid: 9c02645bcdbf83645ad678b8f559478b
   m_configObjects: {}
