@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/Eichelberger_BoatLevel.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Snake Level.unity
+=======
+- path: Assets/Scenes/Eichelberger_BoatLevel.unity
+>>>>>>> 6f1e0eade5ba23d5088e615260de2ce869e991b1
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
