@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - FallingPlatform
     - InventorySlot
     - InventoryUI
+    - KillPlayer
     - LeverManager
     - LeverSystem
     - LightingManager
@@ -12,17 +13,8 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - SceneChanger
     - TeleportToStart
-    Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.EditorToolbar
-    - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -323,6 +315,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -404,6 +398,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -459,6 +455,71 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/snake test/snt.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 3492}
+    - Class: 114
+      Script: {instanceID: 3840}
+    - Class: 114
+      Script: {instanceID: 5024}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1074,4 +1135,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/KaiLevel.unity
   - Assets/Scenes/JamesLevel.unity
   - Assets/Scenes/ThomasLevel.unity
-  playerPath: D:/th/Treasure Hunt.exe
+  - Assets/Scenes/snake test/snt.unity
+  playerPath: C:/Users/Owner/Downloads/Teasure Hunt Update/Treasure Hunt.exe
