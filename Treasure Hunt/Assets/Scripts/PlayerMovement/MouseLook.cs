@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ *Lines 44-50 
+ * Draws a gizmo to show how far a player can interact with the world around them
+ */
 public class MouseLook : MonoBehaviour
 {
     [RangeAttribute(1, 200)]
@@ -10,8 +14,14 @@ public class MouseLook : MonoBehaviour
 
     [Tooltip("Assign a player to control")]
     public Transform playerBody;
+    
+    [RangeAttribute(1,20)]
+    [Tooltip("How far a player has to be to interact with interactables")]
+    public float range = 50f;
 
     float xRotation = 0f;
+
+    public Camera cam;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,5 +39,12 @@ public class MouseLook : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
+
+        Debug.DrawRay(cam.transform.position, cam.transform.forward * range, Color.red);
+        RaycastHit hit;
+        if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
+        {
+            Debug.Log(hit.transform.name);
+        }
     }
 }
