@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.024
   m_LinearFogStart: 100
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.98254746, g: 0.9743347, b: 0.94259024, a: 1}
+  m_AmbientSkyColor: {r: 0.98993725, g: 0.93884474, b: 0.7413569, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.616
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.34798944, g: 0.38721374, b: 0.4528178, a: 0.616}
+  m_IndirectSpecularColor: {r: 0.33482283, g: 0.35959953, b: 0.37710685, a: 0.616}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3752,7 +3752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f6c590b78fd0c949bc1d2ecbce99e97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameOfScene: KaiLevel
+  nameOfScene: JamesLevel
 --- !u!65 &323463150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5809,7 +5809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DirectionalLight: {fileID: 1800131194}
   Preset: {fileID: 11400000, guid: 2c5e908a2246bc349911712570d6c6eb, type: 2}
-  TimeOfDay: 11.1
+  TimeOfDay: 6.4
 --- !u!4 &513397833
 Transform:
   m_ObjectHideFlags: 0
@@ -8595,6 +8595,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1118e974c7d255a42be0aaf3507c86a3, type: 3}
   m_PrefabInstance: {fileID: 779074797}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &798059649 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7705096814061505933, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
+  m_PrefabInstance: {fileID: 948717107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &800645009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10602,6 +10607,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7705096814061505931, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 798059649}
+    - target: {fileID: 7705096814061505931, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
+      propertyPath: mouseSensitivity
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 7705096814497231769, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -20116,7 +20129,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.961077, g: 0.961077, b: 0.961077, a: 1}
+  m_Color: {r: 0.68676984, g: 0.68676984, b: 0.68676984, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -20174,7 +20187,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800131193}
-  m_LocalRotation: {x: 0.053957622, y: 0.7823286, z: -0.6167381, w: 0.06844493}
+  m_LocalRotation: {x: 0.004561386, y: 0.9948294, z: -0.052136846, w: 0.08703636}
   m_LocalPosition: {x: -65.7, y: 113.2, z: 113.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
