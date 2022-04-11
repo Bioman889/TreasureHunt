@@ -1,0 +1,739 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Git Repo/TreasureHunt/Treasure Hunt
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49862
+Successfully changed project path to: D:/Git Repo/TreasureHunt/Treasure Hunt
+D:/Git Repo/TreasureHunt/Treasure Hunt
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Git Repo/TreasureHunt/Treasure Hunt/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001208 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (36ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (286ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (108ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001672 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (677ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (545ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 1.988900 ms (FindLiveObjects: 0.113000 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.781200 ms  DeleteObjects: 0.054700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c968fb02dc344a19971353096a3a207c') in 0.059751 seconds 
+  Import took 0.061777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.548611 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b50efa8b088dd52e3cf9ae3935aabe') in 0.024045 seconds 
+  Import took 0.026269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.229402 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2598498a74e3d5c709f7c3b525bf125e') in 0.026703 seconds 
+  Import took 0.029035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.328549 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61bde7be4348025265d33e40833445d') in 0.053954 seconds 
+  Import took 0.056251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.574536 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258ffcd8f49539eb05f1100dfc56b06f') in 0.022327 seconds 
+  Import took 0.024649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.350342 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49851d175cb83b52a2aab9285c6d533') in 0.023782 seconds 
+  Import took 0.026352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.426476 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3381a771c8f7588b92c795d34f6668a1') in 0.018594 seconds 
+  Import took 0.020953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.822102 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e82d8ab26112f4ddea6ad11281c5767') in 0.007839 seconds 
+  Import took 0.009961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.721211 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078a187a28287b106c8ba4313a913721') in 0.013336 seconds 
+  Import took 0.015487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.079561 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce4b4f1cd1be2b7b44076248cbcd5a') in 0.010398 seconds 
+  Import took 0.023171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.200045 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67529ed97f9148449c88b128846dff17') in 0.023296 seconds 
+  Import took 0.025385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.152439 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96a6e73d4dbd6e959586c799c60829f') in 0.016330 seconds 
+  Import took 0.018623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.130759 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c74808b99ee8ef19ccef9abca22f018') in 0.034223 seconds 
+  Import took 0.048047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.010032 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f3e60f9ccbcdca213ffdbffc5919d5') in 0.022274 seconds 
+  Import took 0.041828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.396809 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3f1459a5a11c939b8a503f7039a77b') in 0.019825 seconds 
+  Import took 0.030680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.609160 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76b80b62bdc0a02bb24476adb0a2021') in 0.024850 seconds 
+  Import took 0.049926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.020935 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe93c5e7cd5169ae9fb0e3b5201c2a91') in 0.018572 seconds 
+  Import took 0.020816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.675375 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0567a353c1e973ce9b1872760a26943e') in 0.007369 seconds 
+  Import took 0.010565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.954259 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252f4a4ce72811f7d3279973240adc45') in 0.023802 seconds 
+  Import took 0.040032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.123802 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ef90b2c4c37c2d2020ccf13c5b172b') in 0.024268 seconds 
+  Import took 0.040061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.043619 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22019365a3a211c4607f9de199acc013') in 0.019424 seconds 
+  Import took 0.021690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.277775 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ff5459471cd13aeae505e01f89a148') in 0.032830 seconds 
+  Import took 0.046508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.455532 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c3995cbd066b05a4dfa074493edc62') in 0.023231 seconds 
+  Import took 0.040266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.694696 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e615bbb29afc07ee6a5a7108624328f5') in 0.027367 seconds 
+  Import took 0.030027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.770281 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2776641bbbd637154dd63b1b236c42b') in 0.021857 seconds 
+  Import took 0.034028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.640916 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e0f8a514a206990a73d997bf99a1bc') in 0.021745 seconds 
+  Import took 0.024035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.293468 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934ab73613faaddd20927c3666752720') in 0.027628 seconds 
+  Import took 0.031019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.026938 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8f9bb6e024797a374b289af2e03ce6') in 0.026904 seconds 
+  Import took 0.055831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.359573 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dab8c09e594df9ab8f2c3af8a86ced2') in 0.022358 seconds 
+  Import took 0.042790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.912029 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40f0688a9bb321ed301d296e1400d5c') in 0.025390 seconds 
+  Import took 0.041889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.089464 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f2a3018451bb011470410a94651993') in 0.026014 seconds 
+  Import took 0.042964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.777412 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04d7e5275a9ca02e3034a7c61994c32') in 0.015272 seconds 
+  Import took 0.031311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.461586 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582fd6177f7b981c32ebd2595af168d3') in 0.022454 seconds 
+  Import took 0.043284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.194661 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a60932ed091765db5b446366f870cf1') in 0.015907 seconds 
+  Import took 0.027889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.087633 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b6eb3ed3943095a2a780a44a7d5f4b') in 0.007953 seconds 
+  Import took 0.020190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.068003 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b901fab58ba8c28ce4cc7a2e1220f360') in 0.021095 seconds 
+  Import took 0.036636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.455000 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d98672a6b27125b0bfdd3c8c5a2a183') in 0.008196 seconds 
+  Import took 0.022450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.808326 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72889923fbd2e28b276d45f3f405136a') in 0.028358 seconds 
+  Import took 0.044402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.454418 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bcf734eb1b9604bce3bc50655dfa1b') in 0.008625 seconds 
+  Import took 0.026032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.657123 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1834667eacb5e1a8e0ee7876cf6cfd') in 0.016932 seconds 
+  Import took 0.028929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.267640 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca913588f59ad86523e26902f1c917c') in 0.015873 seconds 
+  Import took 0.031997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.815338 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3007ee6ce2dcff141ca5967755f5750') in 0.022362 seconds 
+  Import took 0.025367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.664532 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5539f375d3c85a46f56e14c49de320') in 0.007905 seconds 
+  Import took 0.010155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.167319 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c11fa186c1d1488d03c5c33eac9cf') in 0.023198 seconds 
+  Import took 0.034653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.451158 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1329437f2cd6b91cab23f5dee080c3') in 0.008657 seconds 
+  Import took 0.018704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.580153 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97e067b85361a355035a1357406479') in 0.007769 seconds 
+  Import took 0.017393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.985774 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1593dd3718d7a8e1180d05a364acd4') in 0.030808 seconds 
+  Import took 0.044716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.622878 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00802ce0f19fdd74503f50b0c4e0c499') in 0.017965 seconds 
+  Import took 0.021092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.768553 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5a8ecbb1514085392b45cc65356bb8') in 0.009495 seconds 
+  Import took 0.021805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.417249 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e1c639bb80212bb9b00f609c73caa5') in 0.017159 seconds 
+  Import took 0.019565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.965593 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f6a715e98dede3da87372b3f763693') in 0.007624 seconds 
+  Import took 0.028237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.380253 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56499e45ef9cbdaffa4a39bcbcf3413d') in 0.021834 seconds 
+  Import took 0.038191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.637721 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10035ba066b85cd4053e16d9db0cdb9') in 0.006288 seconds 
+  Import took 0.021731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.617146 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381263ad7f31a42ae878980c681b15fb') in 0.015871 seconds 
+  Import took 0.035937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.878676 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0bbe588d87e933b71ea8cdac16f088') in 0.018866 seconds 
+  Import took 0.021325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.209070 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee2ecf6642ca2f57630ef93f6aa8970') in 0.020826 seconds 
+  Import took 0.030732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.724513 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bbf8970222529e34a562b55de3fb95') in 0.009494 seconds 
+  Import took 0.028930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.921641 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4bfda68e6475193162fdb62c6a6f53') in 0.015779 seconds 
+  Import took 0.017882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.472445 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55cbd6eeb006f646cbd50f9368da988') in 0.008959 seconds 
+  Import took 0.011668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.425174 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740c3bf6ecd5535700a87eb8df96cee8') in 0.006361 seconds 
+  Import took 0.016042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.765710 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973e5b8bac7856d4c47fe147dbd35b49') in 0.015520 seconds 
+  Import took 0.033734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.112050 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac60817df342399b9e8c794aaa123e13') in 0.026533 seconds 
+  Import took 0.028870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.013515 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c084485ec5e76e43cd6124465fa707a') in 0.018722 seconds 
+  Import took 0.032783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.790380 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c88dd891a55ab7d0531227f57116aa4') in 0.065731 seconds 
+  Import took 0.090629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.460890 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962212b6ce460467c198254e8f16a406') in 0.047546 seconds 
+  Import took 0.065655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.940847 seconds.
+  path: Assets/TextureImages/Island/lambert1_Base_color 1.png
+  artifactKey: Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextureImages/Island/lambert1_Base_color 1.png using Guid(6cf60af2622a85146bcfdba0e7940510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f4bfc8f19a40260627be3e14379a75') in 0.029586 seconds 
+  Import took 0.043501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.554440 seconds.
+  path: Assets/Soud/423454__florianreichelt__snarling-snake.wav
+  artifactKey: Guid(d639f7e192e64e44aa9d2e69960ec25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soud/423454__florianreichelt__snarling-snake.wav using Guid(d639f7e192e64e44aa9d2e69960ec25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e1d593e2b770ab40ac1355fd11a8e0') in 0.082043 seconds 
+  Import took 0.084999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Soud/Ocean sound.wav
+  artifactKey: Guid(59294ed3f5b597041b8ccde76c110f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soud/Ocean sound.wav using Guid(59294ed3f5b597041b8ccde76c110f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7e104f8c9d709f62d79bdbbe801918') in 0.030191 seconds 
+  Import took 0.042799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Soud/Walk.wav
+  artifactKey: Guid(3236e372b5731504087735b65481f0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soud/Walk.wav using Guid(3236e372b5731504087735b65481f0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083c86a228da4ecfb048868e78ffa7b1') in 0.032435 seconds 
+  Import took 0.034499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (508ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 1.967800 ms (FindLiveObjects: 0.108500 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.811500 ms  DeleteObjects: 0.011800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

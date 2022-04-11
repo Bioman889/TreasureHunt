@@ -8,7 +8,7 @@ using UnityEngine;
  */
 public class MouseLook : MonoBehaviour
 {
-    [RangeAttribute(1, 200)]
+    [RangeAttribute(1, 600)]
     [Tooltip("Editable mouse sensitivity to look around.")]
     public float mouseSensitivity = 100f;
 
