@@ -2,7 +2,11 @@ Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 OS: 'Windows 10 Home; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 32703 MB
+=======
+OS: 'Windows 10 Home; OS build 19043.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
+>>>>>>> Stashed changes
 =======
 OS: 'Windows 10 Home; OS build 19043.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
 >>>>>>> Stashed changes
@@ -19,6 +23,7 @@ C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt
@@ -44,6 +49,8 @@ Direct3D:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 D:/Git Repo/TreasureHunt/Treasure Hunt
 -logFile
 Logs/AssetImportWorker0.log
@@ -65,6 +72,9 @@ Direct3D:
     VRAM:     5991 MB
     Driver:   30.0.15.1123
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -72,6 +82,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
@@ -90,6 +101,8 @@ Domain Reload Profiling:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -104,6 +117,9 @@ Domain Reload Profiling:
 	ReloadAssembly (694ms)
 		BeginReloadAssembly (36ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -112,6 +128,7 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		EndReloadAssembly (637ms)
@@ -131,6 +148,8 @@ Domain Reload Profiling:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 		EndReloadAssembly (295ms)
 			LoadAssemblies (34ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -146,6 +165,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (54ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -155,6 +177,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.007669 seconds.
@@ -205,6 +228,8 @@ Total: 4.032300 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.058400 m
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 Registered in 0.001707 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -251,6 +276,9 @@ System memory in use after: 85.1 MB.
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2310.
 Total: 1.976800 ms (FindLiveObjects: 0.108300 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.774300 ms  DeleteObjects: 0.055000 ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -267,6 +295,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   path: Assets/FBX/cluster.fbx
@@ -588,6 +617,8 @@ Start importing Assets/FBX/book 1.fbx using Guid(22a4c25cd87a53247b9a8ae487a82d9
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   path: Assets/Scenes/Snake Level.unity
@@ -8392,6 +8423,9 @@ C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFEDCDF0000), size: 1982464 (r
 A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
  * C:/Users/Thomas/AppData/Local/Temp/Unity/Editor/Crashes
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
