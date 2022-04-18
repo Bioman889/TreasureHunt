@@ -3809,7 +3809,7 @@ GameObject:
   - component: {fileID: 202100245}
   - component: {fileID: 202100244}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SceneDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3828,6 +3828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfScene: IslandScene
+  newSpawnPoint: 3
 --- !u!65 &202100245
 BoxCollider:
   m_ObjectHideFlags: 0

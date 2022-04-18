@@ -11,9 +11,10 @@ public class Item : ScriptableObject {
     // an object has a name called name
     // using 'new' overrides the old definition
     new public string name = "New Item";
-
+    public string description = "Description of the item's function";
     //This is the icon showing up in our inventory (by default)
     public Sprite icon = null;
+    public Sprite imageUI;
 
     public bool isDefaultItem = false;
 
@@ -22,5 +23,12 @@ public class Item : ScriptableObject {
         //Use the item
         //Something will occur
         Debug.Log("Using " + name);
+
+        if (name == "Fuk")
+        {
+            Debug.Log("you");
+            //imageUI.SetActive(!imageUI.activeSelf);
+        }
+
     }
 }

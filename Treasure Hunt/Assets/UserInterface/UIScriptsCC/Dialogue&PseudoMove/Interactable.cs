@@ -12,7 +12,7 @@ public class Interactable : MonoBehaviour
 
     private bool pickUpAllowed;
 
-
+    public bool hitByRayCast;
     //public Transform interactionTransform;
 
     // Use this for initialization
@@ -55,6 +55,12 @@ public class Interactable : MonoBehaviour
             pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
         }
+    }
+
+    public void LookingAtInteractable()
+    {
+        pickUpText.gameObject.SetActive(hitByRayCast);
+        pickUpAllowed = hitByRayCast;
     }
     /**
     private void PickUp()

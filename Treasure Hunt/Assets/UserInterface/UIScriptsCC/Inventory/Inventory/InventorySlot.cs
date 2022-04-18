@@ -5,6 +5,7 @@ public class InventorySlot : MonoBehaviour {
 
     public Image icon;
     public Button removeButton;
+    public Text text;
 
     Item item;
 
@@ -36,5 +37,16 @@ public class InventorySlot : MonoBehaviour {
         {
             item.Use();
         }
+    }
+    public void DisplayDescription()
+    {
+        if(item != null)
+        {
+            text.text = item.description;
+        }
+    }
+    public void RemoveDescription()
+    {
+        text.text = null;
     }
 }

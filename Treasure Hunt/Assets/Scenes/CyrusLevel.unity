@@ -319,12 +319,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 0}
+  hitByRayCast: 0
   switches:
   - {fileID: 364967035}
   - {fileID: 1949976316}
   Door: {fileID: 206133285}
+  Light1: {fileID: 0}
+  Light2: {fileID: 0}
   currentSwitch: 0
   waitForPullingSwitch: 0
+  isDoor: 0
+  isLight: 0
 --- !u!4 &66575386
 Transform:
   m_ObjectHideFlags: 0
@@ -2005,6 +2010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 543332423}
+  hitByRayCast: 0
   OrderOfSwitch: 0
   switchActivated: 0
 --- !u!4 &365270111 stripped
@@ -6479,6 +6485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 543332423}
+  hitByRayCast: 0
   OrderOfSwitch: 1
   switchActivated: 0
 --- !u!65 &1625718823
@@ -8181,6 +8188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpText: {fileID: 543332423}
+  hitByRayCast: 0
   OrderOfSwitch: 2
   switchActivated: 0
 --- !u!65 &1949976318
@@ -9120,6 +9128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfScene: IslandScene
+  newSpawnPoint: 2
 --- !u!1001 &1746381495449730580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9351,7 +9360,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928774067028876935}
   m_LocalRotation: {x: 0.20287669, y: 0.666302, z: 0.6939906, w: -0.18237272}
-  m_LocalPosition: {x: 26.53, y: 26.78, z: -109.8}
+  m_LocalPosition: {x: 24.5, y: 26.82, z: -108.55}
   m_LocalScale: {x: 1.4613919, y: 12.233716, z: 12.614735}
   m_Children: []
   m_Father: {fileID: 0}

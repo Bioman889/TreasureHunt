@@ -29,10 +29,14 @@ public class LeverManager : Interactable
     [Header("Custom Order")]
     public List<GameObject> switches; //Lists if changing the size of the array. If fixed number of elements, use arrays.
     public GameObject Door;
+    public GameObject Light1;
+    public GameObject Light2;
     [Space]
     public int currentSwitch; //Variable for what switch needs to be pulled
     [Tooltip("Amount of time until you can pull another switch")]
     public float waitForPullingSwitch;
+    public bool isDoor;
+    public bool isLight;
 
     //Task: Create 5 Levers in different orders
     //Levers must be interacted by pressing e
@@ -83,7 +87,16 @@ public class LeverManager : Interactable
     //Function that runs when all switches are activated in sequence
     public void AllSwitchesActivated()
     {
-        Debug.Log("All switches are activated");
-        Door.SetActive(false); //We can change replace this by having a script where the door is animated to open
+        if (isDoor == true)
+        {
+            Debug.Log("All switches are activated");
+            Door.SetActive(false); //We can change replace this by having a script where the door is animated to open
+        }
+        if (isLight == true)
+        {
+            Debug.Log("All switches are activated");
+            Light1.SetActive(false);
+            Light2.SetActive(true);
+        }
     }
 }

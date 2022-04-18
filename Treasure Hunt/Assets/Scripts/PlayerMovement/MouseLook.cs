@@ -8,7 +8,7 @@ using UnityEngine;
  */
 public class MouseLook : MonoBehaviour
 {
-    [RangeAttribute(1, 600)]
+    [RangeAttribute(1, 10)]
     [Tooltip("Editable mouse sensitivity to look around.")]
     public float mouseSensitivity = 100f;
 
@@ -22,17 +22,20 @@ public class MouseLook : MonoBehaviour
     float xRotation = 0f;
 
     public Camera cam;
+
+    public Interactable interactableObject;
     // Start is called before the first frame update
     void Start()
     {
+        cam = GetComponent<Camera>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime; //used for the movement of entire player body
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity; //used for the movement of entire player body
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f); //Prevents overrotation where player rotates their head all the way behind them in the y-axis
@@ -45,6 +48,36 @@ public class MouseLook : MonoBehaviour
         if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
+            
+            //Getcomponent of pickupAllowed and turn it to true.
+            if(hit.collider.GetComponent<Interactable>() != null) //if the object hit has the component or derived from "Interactable"...
+            {
+                if(interactableObject != null) //if interactableObject HAS BEEN ASSIGNED WITH A COMPONENT...
+                {
+                    if(interactableObject.gameObject != hit.collider.gameObject) //and that assigned component is different from the current collider hit...
+                    {
+                        interactableObject.hitByRayCast = false; //Stops player from interacting with an object when they immediately look at another interactable object
+                        //interactableObject.LookingAtInteractable(); //THIS LINE CAUSED A BUG where it would turn off the textbox abruptly when looking at interactables
+                        Debug.Log("The current local interactableObject is: " + interactableObject.gameObject + " and its hitByRayCast is... " + interactableObject.hitByRayCast);
+                        Debug.Log("Chagning local interactable component from " + interactableObject.gameObject + " to " + hit.collider.gameObject);
+                        interactableObject = hit.collider.GetComponent<Interactable>();
+                    }
+                }
+                else
+                {
+                    Debug.Log("interactableObject has been assigned");
+                    interactableObject = hit.collider.GetComponent<Interactable>();
+                    interactableObject.hitByRayCast = true;
+                    interactableObject.LookingAtInteractable();
+                }
+            }
+            else if (interactableObject != null) //if the raycast doesnt hit an interactable object AND there is an interactacbleObject assigned
+            {
+                interactableObject.hitByRayCast = false; //Stops player from interacting with an object when they're not looking at it.
+                Debug.Log("THE PLAYER IS LOOKING AWAY FROM AN INTERACTABLE");
+                interactableObject.LookingAtInteractable();
+                interactableObject = null;
+            }
         }
     }
 }
