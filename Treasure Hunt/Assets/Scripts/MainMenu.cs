@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void LoadtheGame()
+    public void LoadtheGame(string sceneName)
     {
-        SceneManager.LoadScene("IslandScene");
+        SceneManager.LoadScene(sceneName);
     }
 
     public void EndTheGame()

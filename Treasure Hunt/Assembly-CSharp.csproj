@@ -46,6 +46,51 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
+<<<<<<< Updated upstream
+=======
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>2020.3.21f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\KeyGate.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\Counter.cs" />
+    <Compile Include="Assets\UserInterface\UIScriptsCC\Dialogue&amp;PseudoMove\Interactable.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerSpawnManager.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\StateCheck.cs" />
+    <Compile Include="Assets\Cyrus&apos; Scripts\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\SwitchesPuzzle\LeverSystem.cs" />
+    <Compile Include="Assets\Scripts\TeleportToStart.cs" />
+    <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\FallingPlatform.cs" />
+    <Compile Include="Assets\Scripts\GameVariables.cs" />
+    <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Inventory\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\DayNightLighting\LightingPreset.cs" />
+    <Compile Include="Assets\Scripts\DayNightLighting\LightingManager.cs" />
+    <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\GetKeyFromChest.cs" />
+    <Compile Include="Assets\Scripts\SwitchesPuzzle\PuzzleObjexts\Lever.cs" />
+    <Compile Include="Assets\Scripts\Boar\Boar.cs" />
+    <Compile Include="Assets\Scripts\DisableInteractable.cs" />
+    <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Items\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\KeyRemember\KeyScriptObj.cs" />
+    <Compile Include="Assets\Scripts\TestScripts\KillPlayer.cs" />
+    <Compile Include="Assets\Scripts\SwitchesPuzzle\LeverManager.cs" />
+    <Compile Include="Assets\UserInterface\UIScriptsCC\Inventory\Inventory\InventorySlot.cs" />
+    <Compile Include="Assets\Scripts\Boar\BoarBehaviour.cs" />
+    <Compile Include="Assets\Scripts\KeyItem.cs" />
+    <Compile Include="Assets\Scripts\Boat Script Folder\BoatTimer.cs" />
+    <Compile Include="Assets\Scripts\Boat Script Folder\WheelInteractable.cs" />
+  </ItemGroup>
+>>>>>>> Stashed changes
   <ItemGroup>
      <Compile Include="Assets\Scripts\KeyGate.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement\MouseLook.cs" />

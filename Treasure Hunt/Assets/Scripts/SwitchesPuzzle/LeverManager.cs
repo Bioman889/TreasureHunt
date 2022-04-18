@@ -31,6 +31,8 @@ public class LeverManager : Interactable
     public GameObject Door;
     public GameObject Light1;
     public GameObject Light2;
+    public GameObject fakeWheel;
+    public GameObject realWheel;
     [Space]
     public int currentSwitch; //Variable for what switch needs to be pulled
     [Tooltip("Amount of time until you can pull another switch")]
@@ -97,6 +99,9 @@ public class LeverManager : Interactable
             Debug.Log("All switches are activated");
             Light1.SetActive(false);
             Light2.SetActive(true);
+
+            fakeWheel.SetActive(false);
+            realWheel.SetActive(true);
         }
     }
 }
