@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.UI;
 
 /**Tells Unity to create new item
  * 'New Item' when asset is created
@@ -14,7 +14,8 @@ public class Item : ScriptableObject {
     public string description = "Description of the item's function";
     //This is the icon showing up in our inventory (by default)
     public Sprite icon = null;
-    public Sprite imageUI;
+    public Sprite FrontImage = null;
+    public Sprite BackImage = null;
 
     public bool isDefaultItem = false;
 
@@ -23,12 +24,5 @@ public class Item : ScriptableObject {
         //Use the item
         //Something will occur
         Debug.Log("Using " + name);
-
-        if (name == "Fuk")
-        {
-            Debug.Log("you");
-            //imageUI.SetActive(!imageUI.activeSelf);
-        }
-
     }
 }

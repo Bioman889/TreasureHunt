@@ -7,6 +7,10 @@ public class InventorySlot : MonoBehaviour {
     public Button removeButton;
     public Text text;
 
+    public GameObject imageGUI;
+    public Image frontImageGUI;
+    public Image backImageGUI;
+
     Item item;
 
     public void AddItem(Item newItem)
@@ -36,6 +40,17 @@ public class InventorySlot : MonoBehaviour {
         if(item != null)
         {
             item.Use();
+        }
+
+        frontImageGUI.sprite = item.FrontImage;
+        backImageGUI.sprite = item.BackImage;
+        if(item.FrontImage != null)
+        {
+            imageGUI.SetActive(true);
+        }
+        else if(item.BackImage != null)
+        {
+            imageGUI.SetActive(true);
         }
     }
     public void DisplayDescription()

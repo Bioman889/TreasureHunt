@@ -8,7 +8,7 @@ using UnityEngine;
  */
 public class MouseLook : MonoBehaviour
 {
-    [RangeAttribute(1, 10)]
+    [RangeAttribute(1, 200)]
     [Tooltip("Editable mouse sensitivity to look around.")]
     public float mouseSensitivity = 100f;
 
@@ -78,6 +78,16 @@ public class MouseLook : MonoBehaviour
                 interactableObject.LookingAtInteractable();
                 interactableObject = null;
             }
+        }
+        else
+        {
+            if (interactableObject != null)
+            {
+                interactableObject.hitByRayCast = false; //Stops player from interacting with an object when they're not looking at it.
+                Debug.Log("The Raycast is currently looking at nothing");
+                interactableObject.LookingAtInteractable();
+                interactableObject = null;
+            }  
         }
     }
 }

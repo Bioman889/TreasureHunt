@@ -5,7 +5,7 @@ public class InventoryUI : MonoBehaviour {
     public Transform itemsParent;
 
     public GameObject inventoryUI;
-    public GameObject mapUI;
+    public GameObject ImageGUI;
 
     Inventory inventory;
 
@@ -38,19 +38,23 @@ public class InventoryUI : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //"If you press the button for "Inventory..."
-		if (Input.GetButtonDown("Inventory"))
+		if (Input.GetButtonDown("Inventory") && !ImageGUI.activeSelf) //you can only turn on/off the inventory when the image GUI is not present
         {
             //Changes active state of the inventory
             inventoryUI.SetActive(!inventoryUI.activeSelf);
             mouseLook.enabled = !mouseLook.isActiveAndEnabled;
             SetCursorLock(mouseLook.enabled);
         }
-        if (Input.GetButtonDown("Map"))
+        if (!ImageGUI.activeSelf && inventoryUI.activeSelf && Input.GetKeyDown(KeyCode.Escape)) //if the ImageGUI is off and you inventory is on, when you press escape it turns off inventory
         {
-            Debug.Log("M Pressed");
-            mapUI.SetActive(!mapUI.activeSelf);
+            Debug.Log("hello");
+            inventoryUI.SetActive(!inventoryUI.activeSelf);
             mouseLook.enabled = !mouseLook.isActiveAndEnabled;
             SetCursorLock(mouseLook.enabled);
+        }
+        if (ImageGUI.activeSelf && Input.GetKeyDown(KeyCode.Escape)) //if ImageGUI is open...
+        {
+            ImageGUI.SetActive(false);
         }
 	}
 
