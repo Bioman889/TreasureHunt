@@ -6,4 +6,6 @@ public static class GameVariables
 {
     public static int keyCount;
     public static int currentSpawnPoint;
+    public static int kaiDoorKey;
+    public static int treasureCollected;
 }

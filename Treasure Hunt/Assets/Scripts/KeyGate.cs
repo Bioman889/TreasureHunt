@@ -2,16 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyGate : MonoBehaviour
+public class KeyGate : Interactable
 {
-    void OnTriggerEnter(Collider collider)
+    public bool isFinalDoor = false;
+    public bool isCellDoor = false;
+    public override void Interact()
     {
-        Debug.Log("player Entered");
-        Debug.Log(GameVariables.keyCount);
+        base.Interact();
 
-        if (collider.gameObject.name == "Player" && GameVariables.keyCount>0)
+        if (GameVariables.kaiDoorKey == 1 && isCellDoor == true)
         {
-            GameVariables.keyCount--;
+            Destroy(gameObject);
+        }
+
+        if (GameVariables.keyCount == 3 && isFinalDoor == true)
+        {
             Destroy(gameObject);
         }
     }

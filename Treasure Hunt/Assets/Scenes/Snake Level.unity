@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.086
+  m_FogDensity: 0.06
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
@@ -360,7 +360,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -628,7 +628,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -731,7 +731,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58596
+  m_Name: pb_Mesh156156
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1134,7 +1134,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1415,7 +1415,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1686,7 +1686,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &73207609
 PrefabInstance:
@@ -1859,7 +1859,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2236,7 +2236,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2396,7 +2396,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59502
+  m_Name: pb_Mesh157086
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2560,7 +2560,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58716
+  m_Name: pb_Mesh156276
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3358,7 +3358,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3626,7 +3626,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3854,7 +3854,7 @@ Transform:
   m_LocalScale: {x: 1, y: 8.602, z: 7.6689415}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &205966178
 PrefabInstance:
@@ -4465,6 +4465,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
   m_PrefabInstance: {fileID: 259003548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &262097628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.232
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.244873
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.881
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9998999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.014151536
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593615, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593650, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: m_Name
+      value: NoteTemp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806444025307593651, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 4233883a5e0efb440bfa44f844c54a1f, type: 2}
+    - target: {fileID: 6806444025307593651, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
+      propertyPath: pickUpText
+      value: 
+      objectReference: {fileID: 1021617085}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e82492461eb74d428cc6d2fa0929966, type: 3}
 --- !u!1 &266176411
 GameObject:
   m_ObjectHideFlags: 0
@@ -4870,7 +4935,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57660
+  m_Name: pb_Mesh155180
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5100,7 +5165,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58608
+  m_Name: pb_Mesh156168
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5332,6 +5397,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
   m_PrefabInstance: {fileID: 278110076}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &285614628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 236439592717058287, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_Name
+      value: Eichelberger_Skeleton02
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9715417
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.23686865
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 332.596
+      objectReference: {fileID: 0}
+    - target: {fileID: 577534022017440341, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc6bcbb62c791ff4b890d3afa08da48b, type: 3}
 --- !u!1001 &290645119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5503,7 +5625,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5919,7 +6041,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57832
+  m_Name: pb_Mesh155364
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6874,7 +6996,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7142,7 +7264,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7310,7 +7432,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57878
+  m_Name: pb_Mesh155412
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7474,7 +7596,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58754
+  m_Name: pb_Mesh156314
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8047,7 +8169,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59338
+  m_Name: pb_Mesh156904
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8471,7 +8593,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58678
+  m_Name: pb_Mesh156238
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8716,7 +8838,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58506
+  m_Name: pb_Mesh156064
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9401,7 +9523,7 @@ Transform:
   - {fileID: 992660389}
   - {fileID: 1369943441}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &499142608
 Rigidbody:
@@ -9590,7 +9712,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -9829,7 +9951,7 @@ Transform:
   - {fileID: 958150072}
   - {fileID: 1714381801}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &520308103
 GameObject:
@@ -10151,9 +10273,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1567790614, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
+      propertyPath: m_Volume
+      value: 0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705096814061505931, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
+      propertyPath: range
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7705096814497231769, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7705096814497231769, guid: c37191a533c486c47b9c49feaa422c68, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10913,13 +11043,70 @@ Transform:
   m_Father: {fileID: 937329640}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -41.483, z: 35.46}
+--- !u!1001 &590114633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.288692
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 32.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3542354
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0831856
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.90678203
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.21294072
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -26.431
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 137.324
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288214992561160025, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5048392204159876747, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
+      propertyPath: m_Name
+      value: Torch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef980f53d328dae419c6ed92586584ff, type: 3}
 --- !u!43 &594023611
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59202
+  m_Name: pb_Mesh156766
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11483,7 +11670,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -12055,7 +12242,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58266
+  m_Name: pb_Mesh155816
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12922,7 +13109,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13560,7 +13747,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13663,7 +13850,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58370
+  m_Name: pb_Mesh155926
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13909,7 +14096,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59390
+  m_Name: pb_Mesh156960
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14139,7 +14326,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58490
+  m_Name: pb_Mesh156048
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14372,7 +14559,7 @@ Transform:
   - {fileID: 1590692254}
   - {fileID: 1450878586}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &767252664
 Mesh:
@@ -14380,7 +14567,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59440
+  m_Name: pb_Mesh157012
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14709,7 +14896,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -14812,7 +14999,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57944
+  m_Name: pb_Mesh155482
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14976,7 +15163,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57562
+  m_Name: pb_Mesh155080
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15200,7 +15387,7 @@ Transform:
   - {fileID: 1585699990}
   - {fileID: 620667302}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &801118523
 PrefabInstance:
@@ -15373,7 +15560,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -15719,7 +15906,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -16626,7 +16813,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -16719,7 +16906,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7683c98e1ea320d44a52b7e51459b87d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7683c98e1ea320d44a52b7e51459b87d, type: 3}
       propertyPath: m_LocalScale.x
@@ -17024,7 +17211,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -17235,7 +17422,7 @@ Transform:
   - {fileID: 134466770}
   - {fileID: 1591895572}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &940251089
 Mesh:
@@ -17243,7 +17430,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58162
+  m_Name: pb_Mesh155700
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17572,7 +17759,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -18379,7 +18566,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59000
+  m_Name: pb_Mesh156564
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19523,6 +19710,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1012759845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5021680725979788415, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+  m_PrefabInstance: {fileID: 1751614114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1012759847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012759845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8144118, y: 2.1380105, z: 1.9176079}
+  m_Center: {x: 0.8898565, y: 0.07269339, z: 0.30575562}
 --- !u!1001 &1013527146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19605,6 +19810,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b1e6049ce277914449f6bf80cc464d5e, type: 3}
   m_PrefabInstance: {fileID: 1013527146}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021617085 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4183588834682716302, guid: 22f858b277109b54fa364d8f1dd6bdc2, type: 3}
+  m_PrefabInstance: {fileID: 1986090212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1026601062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19776,7 +19992,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -19879,7 +20095,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58150
+  m_Name: pb_Mesh155688
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20356,7 +20572,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59452
+  m_Name: pb_Mesh157024
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20580,7 +20796,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -20751,7 +20967,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-24742
+  m_Name: pb_Mesh155804
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21297,7 +21513,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -21637,7 +21853,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58964
+  m_Name: pb_Mesh156528
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22032,7 +22248,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -23300,7 +23516,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -23390,7 +23606,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh29866
+  m_Name: pb_Mesh155168
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23554,7 +23770,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58890
+  m_Name: pb_Mesh156454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23718,7 +23934,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59026
+  m_Name: pb_Mesh156590
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24060,7 +24276,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -25093,7 +25309,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -25457,7 +25673,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -26038,7 +26254,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -26502,7 +26718,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58010
+  m_Name: pb_Mesh155548
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26844,7 +27060,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -27247,7 +27463,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57486
+  m_Name: pb_Mesh154996
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27715,7 +27931,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -27904,7 +28120,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57582
+  m_Name: pb_Mesh155100
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28068,7 +28284,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58902
+  m_Name: pb_Mesh156466
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28232,7 +28448,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-23842
+  m_Name: pb_Mesh157074
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28627,7 +28843,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -28895,7 +29111,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -29163,7 +29379,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -30070,7 +30286,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -30160,7 +30376,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59106
+  m_Name: pb_Mesh156670
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30502,7 +30718,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -31083,7 +31299,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -31180,7 +31396,7 @@ GameObject:
   - component: {fileID: 1528265116}
   - component: {fileID: 1528265115}
   - component: {fileID: 1528265114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31530,7 +31746,7 @@ Transform:
   - {fileID: 2024718613}
   - {fileID: 893847838}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1534436074
 GameObject:
@@ -32125,7 +32341,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -32215,7 +32431,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58300
+  m_Name: pb_Mesh155850
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32726,7 +32942,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -33473,7 +33689,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -33741,7 +33957,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -33844,7 +34060,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59490
+  m_Name: pb_Mesh157062
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34186,7 +34402,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -34589,7 +34805,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh58288
+  m_Name: pb_Mesh155838
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34878,6 +35094,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693385789}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1699585491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590006, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5820898413823590011, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
+      propertyPath: m_Name
+      value: EventSystem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd3ea8611e23e854a84a24f0b0235f0b, type: 3}
 --- !u!1001 &1712299680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35278,6 +35551,67 @@ Transform:
   m_Father: {fileID: 798491707}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.58}
+--- !u!1001 &1751614114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2521735316754128666, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_Name
+      value: Eichelberger_MainKeyPiece
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.725
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.404
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.636
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.75642455
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.65408105
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3005255843821094304, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 81.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021680725979788412, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
+      propertyPath: pickUpText
+      value: 
+      objectReference: {fileID: 1021617085}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f2c9dc7ad5ff644e956906bdbb51560, type: 3}
 --- !u!1 &1757098543
 GameObject:
   m_ObjectHideFlags: 0
@@ -35810,7 +36144,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59370
+  m_Name: pb_Mesh156938
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36139,7 +36473,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -36471,7 +36805,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57966
+  m_Name: pb_Mesh155504
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36948,7 +37282,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59266
+  m_Name: pb_Mesh156832
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37773,7 +38107,7 @@ Transform:
   - {fileID: 1079521120}
   - {fileID: 1842093687}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1965886797
 PrefabInstance:
@@ -37792,7 +38126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4426558539934598894, guid: 10d9c33849550b646b9039e223394a68, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4426558539934598894, guid: 10d9c33849550b646b9039e223394a68, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39973,7 +40307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4183588834901102914, guid: 22f858b277109b54fa364d8f1dd6bdc2, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4183588834901102914, guid: 22f858b277109b54fa364d8f1dd6bdc2, type: 3}
       propertyPath: m_AnchorMax.x
@@ -40237,7 +40571,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -40408,7 +40742,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57736
+  m_Name: pb_Mesh155256
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41363,7 +41697,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -41466,7 +41800,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57634
+  m_Name: pb_Mesh155154
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -42655,7 +42989,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-24450
+  m_Name: pb_Mesh155300
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -42984,7 +43318,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d639f7e192e64e44aa9d2e69960ec25f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.124
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 1
   Mute: 0

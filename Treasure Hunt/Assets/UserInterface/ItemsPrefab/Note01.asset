@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c042f4a392b334bb0b42ee5c49b507, type: 3}
+  m_Name: Note01
+  m_EditorClassIdentifier: 
+  name: Note 01
+  description: June 13
+  icon: {fileID: 21300000, guid: a9af5b1bc73b1ab42ad2686102d95ba0, type: 3}
+  FrontImage: {fileID: 21300000, guid: 95cfc89bc2f74654e876cb62b4ac8df8, type: 3}
+  BackImage: {fileID: 21300000, guid: 08ad1f9d507b6684fae36791228492f3, type: 3}
+  isDefaultItem: 0

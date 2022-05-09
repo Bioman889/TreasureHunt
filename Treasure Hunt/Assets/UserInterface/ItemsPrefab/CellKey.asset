@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c042f4a392b334bb0b42ee5c49b507, type: 3}
+  m_Name: CellKey
+  m_EditorClassIdentifier: 
+  name: Cell Key
+  description: An old key
+  icon: {fileID: 21300000, guid: 41bfcce5193bff04fac34722f9329534, type: 3}
+  FrontImage: {fileID: 21300000, guid: 498bce86a17f6e74594acbe2e239815b, type: 3}
+  BackImage: {fileID: 21300000, guid: 41bfcce5193bff04fac34722f9329534, type: 3}
+  isDefaultItem: 0
