@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Owner\Documents\GitHub\TreasureHunt\Treasure Hunt
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d8c00000
-    m_LastClickedID: 49368
-    m_ExpandedIDs: 00000000bec00000c0c00000c2c00000c4c00000d8c0000000ca9a3b
+    m_SelectedIDs: e44a0000
+    m_LastClickedID: 19172
+    m_ExpandedIDs: 00000000ca4a0000cc4a0000ce4a0000d04a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bec00000c0c00000c2c00000c4c00000
+    m_ExpandedIDs: 00000000ca4a0000cc4a0000ce4a0000d04a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,10 +480,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 185}
-      m_SelectedIDs: 88d30000
-      m_LastClickedID: 54152
-      m_ExpandedIDs: f6d5fbff683efdffb443fdff369ffeff52fbffff6ccc00009ad20000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: f44b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: b4ebffff52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 140.54759, y: 16.498154, z: -169.02205}
+    m_Target: {x: 81.993805, y: 0.20941544, z: 63.927483}
     speed: 2
-    m_Value: {x: 140.54759, y: 16.498154, z: -169.02205}
+    m_Value: {x: 81.993805, y: 0.20941544, z: 63.927483}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15134363, y: 0.65779585, z: -0.13734822, w: 0.7250546}
+    m_Target: {x: 0.19685826, y: 0.6345756, z: -0.17177252, w: 0.72748}
     speed: 2
-    m_Value: {x: 0.15024334, y: 0.6579456, z: -0.13634968, w: 0.72521955}
+    m_Value: {x: 0.19632515, y: 0.6367004, z: -0.1723475, w: 0.72551054}
   m_Size:
-    m_Target: 4.7660255
+    m_Target: 63.102684
     speed: 2
-    m_Value: 4.4660254
+    m_Value: 60.385345
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -681,7 +681,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
