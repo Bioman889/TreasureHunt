@@ -320,7 +320,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - Assets/Scenes
+=======
+    - Assets/Materials
+>>>>>>> Stashed changes
 =======
     - Assets/Materials
 >>>>>>> Stashed changes
@@ -338,7 +342,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - Assets/Scenes
+=======
+  - Assets/Materials
+>>>>>>> Stashed changes
 =======
   - Assets/Materials
 >>>>>>> Stashed changes
@@ -357,9 +365,15 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: e44a0000
     m_LastClickedID: 19172
     m_ExpandedIDs: 00000000ca4a0000cc4a0000ce4a0000d04a000000ca9a3b
+=======
+    m_SelectedIDs: e24b0000
+    m_LastClickedID: 19426
+    m_ExpandedIDs: 00000000d84b0000da4b0000dc4b0000de4b0000e04b0000e24b0000e44b00007a4c00009e4c000000ca9a3b
+>>>>>>> Stashed changes
 =======
     m_SelectedIDs: e24b0000
     m_LastClickedID: 19426
@@ -405,7 +419,11 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000ca4a0000cc4a0000ce4a0000d04a0000
+=======
+    m_ExpandedIDs: 00000000d84b0000da4b0000dc4b0000de4b0000e04b0000e24b0000e44b0000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 00000000d84b0000da4b0000dc4b0000de4b0000e04b0000e24b0000e44b0000
 >>>>>>> Stashed changes
@@ -538,9 +556,15 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: f44b0000
       m_LastClickedID: 0
       m_ExpandedIDs: b4ebffff52fbffff
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: f4f3f4ff14f4f4ff4ef9f4ffb4fbf4ff0c0bf5ffd411f5ffda18f5ff821ef5ff861ef5ff0225f5ffa07af6ff3e7cf6ff2281f6ffcc96f6ffd09ff6ff82a5f6ffa4a5f6ff5aa6f6ffc0a8f6ff18b8f6ffe0bef6ffe6c5f6ff82cbf6ff00d4f6ff7edaf6ff1e30f8ffbc31f8ff984bf8ff405af8ff8ab1f9ffba0ffbff2215fbffa472fcff7e8efeff6cb8fefffabbfeff34c7feffb8c9feffa0cdfeff4ccefeff5acefeff94d2feff1edafeff74effeff82effeff58f3feffb0f3feffb2f3feff90fdfeff4403fffff80efffffe14ffffde6afffff46affff6e6cffff8870ffff0c72ffff5686ffffee92ffff7696ffff7896ffff6499ffff9a9effff00f6ffffdaf7ffff50fbffffb64500003409020054200200f4560200e05e0200a06302009ab80b00f8b80b0052b90b00
+>>>>>>> Stashed changes
 =======
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -618,9 +642,15 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 81.993805, y: 0.20941544, z: 63.927483}
     speed: 2
     m_Value: {x: 81.993805, y: 0.20941544, z: 63.927483}
+=======
+    m_Target: {x: -59.940254, y: 58.92642, z: 25.240347}
+    speed: 2
+    m_Value: {x: -59.940254, y: 58.92642, z: 25.240347}
+>>>>>>> Stashed changes
 =======
     m_Target: {x: -59.940254, y: 58.92642, z: 25.240347}
     speed: 2
@@ -685,6 +715,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 0.19685826, y: 0.6345756, z: -0.17177252, w: 0.72748}
     speed: 2
     m_Value: {x: 0.19632515, y: 0.6367004, z: -0.1723475, w: 0.72551054}
@@ -693,6 +724,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 60.385345
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -706,6 +739,9 @@ MonoBehaviour:
     m_Value: 40.177567
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
