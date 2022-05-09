@@ -1,7 +1,11 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 OS: 'Windows 10 Home; OS build 19044.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 32703 MB
+=======
+OS: 'Windows 10 Home; OS build 19043.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
+>>>>>>> Stashed changes
 =======
 OS: 'Windows 10 Home; OS build 19043.1645; Version 2009; 64bit' Language: 'en' Physical Memory: 16251 MB
 >>>>>>> Stashed changes
@@ -15,6 +19,7 @@ C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 C:/Users/Owner/Documents/GitHub/TreasureHunt/Treasure Hunt
 -logFile
@@ -37,6 +42,8 @@ Direct3D:
     VRAM:     5991 MB
     Driver:   30.0.15.1215
 =======
+=======
+>>>>>>> Stashed changes
 D:/Git Repo/TreasureHunt/Treasure Hunt
 -logFile
 Logs/AssetImportWorker0.log
@@ -57,11 +64,15 @@ Direct3D:
     Vendor:   
     VRAM:     5991 MB
     Driver:   30.0.15.1259
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
@@ -77,6 +88,8 @@ Domain Reload Profiling:
 	ReloadAssembly (2065ms)
 		BeginReloadAssembly (86ms)
 =======
+=======
+>>>>>>> Stashed changes
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -90,12 +103,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (721ms)
 		BeginReloadAssembly (36ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		EndReloadAssembly (771ms)
 			LoadAssemblies (81ms)
@@ -112,6 +129,8 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (148ms)
 				ProcessInitializeOnLoadMethodAttributes (43ms)
 =======
+=======
+>>>>>>> Stashed changes
 		EndReloadAssembly (317ms)
 			LoadAssemblies (34ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -126,6 +145,9 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (11ms)
 				ProcessInitializeOnLoadAttributes (56ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -133,6 +155,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.008543 seconds.
 Begin MonoManager ReloadAssembly
@@ -180,6 +203,8 @@ System memory in use after: 85.7 MB.
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2319.
 Total: 4.986900 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.120800 ms MarkObjects: 4.310900 ms  DeleteObjects: 0.119900 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Registered in 0.002022 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -600,6 +625,9 @@ System memory in use after: 86.6 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2374.
 Total: 2.241200 ms (FindLiveObjects: 0.135500 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.027600 ms  DeleteObjects: 0.030600 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -614,6 +642,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   path: Assets/Scenes/IslandScene.unity
   artifactKey: Guid(794ae05f430eeb34aa0a9e00844d66f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -956,6 +985,8 @@ Received Import Request.
 Start importing Assets/Scripts/Boat Script Folder/BoatTimer.cs using Guid(7f5b48c58307cfa47ba8640156a29160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e1eff0cdd08d438508c1db4d71c411') in 0.009217 seconds 
   Import took 0.012867 seconds .
 =======
+=======
+>>>>>>> Stashed changes
   Time since last request: 4110.922560 seconds.
   path: Assets/Scripts/DisableInteractable.cs
   artifactKey: Guid(b768dbd7ba8f2e242b485088b90df519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -2697,6 +2728,9 @@ Received Import Request.
   artifactKey: Guid(7f2c9dc7ad5ff644e956906bdbb51560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Eichelberger_MainKeyPiece.prefab using Guid(7f2c9dc7ad5ff644e956906bdbb51560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5608d594a6715f0c8e6ff2e4ce3c52') in 0.024502 seconds 
   Import took 0.026667 seconds .
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
