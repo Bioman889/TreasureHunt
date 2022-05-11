@@ -1,25 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-- path: Assets/Scenes/CyrusLevel.unity
-=======
-- path: Assets/Scenes/KaiLevel.unity
->>>>>>> Stashed changes
-=======
-- path: Assets/Scenes/KaiLevel.unity
->>>>>>> Stashed changes
-=======
-- path: Assets/Scenes/KaiLevel.unity
->>>>>>> Stashed changes
-=======
-- path: Assets/Scenes/KaiLevel.unity
->>>>>>> Stashed changes
-=======
-- path: Assets/Scenes/KaiLevel.unity
->>>>>>> Stashed changes
+- path: Assets/Scenes/Eichelberger_BoatLevel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

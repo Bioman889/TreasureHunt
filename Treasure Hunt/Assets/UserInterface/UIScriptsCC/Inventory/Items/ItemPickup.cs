@@ -6,6 +6,8 @@ public class ItemPickup : Interactable {
 
     public bool isKeyItem = false;
     public bool isKaiKey = false;
+
+
     public override void Interact()
     {
         base.Interact(); //Uses the code within the Interact function
