@@ -18,7 +18,7 @@ public class Interactable : MonoBehaviour
     // Use this for initialization
     private void Start()
     {
-
+        
     }
 
     public virtual void Interact()
