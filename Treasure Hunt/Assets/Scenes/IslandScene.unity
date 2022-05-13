@@ -10042,6 +10042,10 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 4426558539934598892, guid: 10d9c33849550b646b9039e223394a68, type: 3}
+      propertyPath: pickUpText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426558539934598892, guid: 10d9c33849550b646b9039e223394a68, type: 3}
       propertyPath: switches.Array.size
       value: 0
       objectReference: {fileID: 0}

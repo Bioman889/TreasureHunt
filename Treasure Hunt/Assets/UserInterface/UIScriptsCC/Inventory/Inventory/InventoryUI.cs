@@ -9,7 +9,7 @@ public class InventoryUI : MonoBehaviour {
     public GameObject ImageGUI;
     public Text interactText;
 
-    Inventory inventory;
+    public Inventory inventory;
 
     InventorySlot[] slots;
 
@@ -25,7 +25,7 @@ public class InventoryUI : MonoBehaviour {
         else if(inventoryControl != this){
             Destroy(gameObject);
         }
-        inventory = Inventory.instance;
+        inventory = GameObject.Find("Canvas").GetComponent<Inventory>();
    
         //Within 'Inventory' we trigger 'onItemChangedCallBack' when removing or adding item
         //We also call 'UpdateUI' when removing/adding item

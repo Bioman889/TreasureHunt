@@ -10,6 +10,8 @@ public class KeyGate : Interactable
     {
         base.Interact();
 
+        Debug.Log(GameVariables.kaiDoorKey);
+
         if (GameVariables.kaiDoorKey == 1 && isCellDoor == true)
         {
             Destroy(gameObject);

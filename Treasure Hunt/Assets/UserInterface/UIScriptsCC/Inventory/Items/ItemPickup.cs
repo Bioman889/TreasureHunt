@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class ItemPickup : Interactable {
     //We can now access values from C# program 'Item'
@@ -6,6 +8,8 @@ public class ItemPickup : Interactable {
 
     public bool isKeyItem = false;
     public bool isKaiKey = false;
+
+    public Inventory inventory;
 
     public override void Interact()
     {
@@ -17,23 +21,27 @@ public class ItemPickup : Interactable {
 
     void PickUp()
     {
-        if (Inventory.instance == null)
-        {
-            Destroy(gameObject);
-        }
-        Destroy(gameObject);
-        Inventory.instance.Add(item);
-        
-        
-        if (isKeyItem == true) 
+
+        inventory = GameObject.Find("Canvas").GetComponent<Inventory>();
+
+        if (isKeyItem == true)
         {
             GameVariables.keyCount += 1;
+            Debug.Log(GameVariables.keyCount);
         }
 
         if (isKaiKey == true)
         {
             GameVariables.kaiDoorKey += 1;
+            Debug.Log(GameVariables.kaiDoorKey);
         }
 
+
+        if (Inventory.instance == null)
+        {
+            Destroy(gameObject);
+        }
+        Destroy(gameObject);
+        inventory.Add(item);
     }
 }
