@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour {
     public static InventoryUI inventoryControl;
@@ -6,6 +7,7 @@ public class InventoryUI : MonoBehaviour {
 
     public GameObject inventoryUI;
     public GameObject ImageGUI;
+    public Text interactText;
 
     Inventory inventory;
 

@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class Interactable : MonoBehaviour
 {
-
     [SerializeField]
     private Text pickUpText;
+    public InventoryUI inventoryUI;
 
     private bool pickUpAllowed;
 
@@ -16,9 +16,11 @@ public class Interactable : MonoBehaviour
     //public Transform interactionTransform;
 
     // Use this for initialization
-    private void Start()
+
+    private void Awake()
     {
-        
+        inventoryUI = GameObject.Find("Canvas").GetComponent<InventoryUI>();
+        pickUpText = inventoryUI.interactText;
     }
 
     public virtual void Interact()
@@ -30,6 +32,7 @@ public class Interactable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
         {
             pickUpText.gameObject.SetActive(false);

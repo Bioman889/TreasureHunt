@@ -619,6 +619,7 @@ MonoBehaviour:
   itemsParent: {fileID: 4183588834066093750}
   inventoryUI: {fileID: 4183588835881455994}
   ImageGUI: {fileID: 7531204023538419659}
+  interactText: {fileID: 4183588834682716302}
 --- !u!1 &4183588835547659964
 GameObject:
   m_ObjectHideFlags: 0

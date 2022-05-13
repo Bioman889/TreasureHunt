@@ -7,9 +7,9 @@ public class ItemPickup : Interactable {
     public bool isKeyItem = false;
     public bool isKaiKey = false;
 
-
     public override void Interact()
     {
+
         base.Interact(); //Uses the code within the Interact function
 
         PickUp();
@@ -17,13 +17,12 @@ public class ItemPickup : Interactable {
 
     void PickUp()
     {
-        Debug.Log("Picking up "+ item.name);
-        bool wasPickedUp = Inventory.instance.Add(item);
-
-        if (wasPickedUp == true)
+        if (Inventory.instance == null)
         {
             Destroy(gameObject);
         }
+        Destroy(gameObject);
+        Inventory.instance.Add(item);
         
         
         if (isKeyItem == true) 
